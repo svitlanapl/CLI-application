@@ -1,0 +1,28 @@
+{
+  "name": "cli-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svitlanapl/CLI-application.git"
+  },
+  "author": "Svitlana Plotnikova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/svitlanapl/CLI-application/issues"
+  },
+  "homepage": "https://github.com/svitlanapl/CLI-application#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "commander": "^10.0.0",
+    "uuid": "^9.0.0"
+  }
+}
